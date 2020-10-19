@@ -15,6 +15,7 @@
 		813EE7282538990900A1A83C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813EE7262538990900A1A83C /* LaunchScreen.storyboard */; };
 		813EE7332538990900A1A83C /* pet_sheltersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813EE7322538990900A1A83C /* pet_sheltersTests.swift */; };
 		813EE73E2538990900A1A83C /* pet_sheltersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813EE73D2538990900A1A83C /* pet_sheltersUITests.swift */; };
+		8157D0B0253DBF0E00C706A9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157D0AF253DBF0E00C706A9 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		813EE7392538990900A1A83C /* pet-sheltersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pet-sheltersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		813EE73D2538990900A1A83C /* pet_sheltersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pet_sheltersUITests.swift; sourceTree = "<group>"; };
 		813EE73F2538990900A1A83C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8157D0AF253DBF0E00C706A9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				813EE71B2538990400A1A83C /* AppDelegate.swift */,
 				813EE71D2538990400A1A83C /* SceneDelegate.swift */,
+				8157D0AF253DBF0E00C706A9 /* CollectionViewCell.swift */,
 				813EE71F2538990400A1A83C /* ViewController.swift */,
 				813EE7212538990400A1A83C /* Main.storyboard */,
 				813EE7242538990900A1A83C /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			files = (
 				813EE7202538990400A1A83C /* ViewController.swift in Sources */,
 				813EE71C2538990400A1A83C /* AppDelegate.swift in Sources */,
+				8157D0B0253DBF0E00C706A9 /* CollectionViewCell.swift in Sources */,
 				813EE71E2538990400A1A83C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
